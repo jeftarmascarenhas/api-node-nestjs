@@ -7,6 +7,6 @@ export class UserController {
 
   @Get()
   getUsers(): any {
-    return this.userService.getUsers();
+    return this.userService.findAll();
   }
 }
